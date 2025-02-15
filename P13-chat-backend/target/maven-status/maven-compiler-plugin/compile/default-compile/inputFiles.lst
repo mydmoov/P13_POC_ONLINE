@@ -1,0 +1,17 @@
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\model\Auditable.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\controller\payload\MessageRequest.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\model\Message.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\P13ChatBackendApplication.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\service\MessageServiceImpl.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\configuration\audit\AuditConfig.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\configuration\socket\SocketIOConfig.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\service\MessageService.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\controller\MessagesController.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\controller\ChatController.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\runner\SocketIOServerRunner.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\controller\payload\MessageResponse.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\configuration\WebSocketConfig.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\configuration\SocketIOConfig.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\configuration\socket\SocketIOServerRunner.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\mappers\MessageMapper.java
+D:\FULL STACK\P13\P13-Your-Car-Your-Way-POC\P13-chat-backend\src\main\java\com\yourcaryourway\P13_chat_backend\repository\MessageRepository.java

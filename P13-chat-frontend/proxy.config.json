@@ -1,0 +1,16 @@
+{
+  "/api": {
+    "target": "https://poc.cortek.fr",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  },
+  "/socket.io": {
+    "target": "https://poc.cortek.fr",
+    "secure": true,
+    "changeOrigin": true,
+    "ws": true
+  }
+}

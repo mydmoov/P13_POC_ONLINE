@@ -1,0 +1,48 @@
+
+<div class="chat-content">
+  <div class="chat-container">
+    <h1>Chatbot</h1>
+    <div class="messages">
+      <strong>Your Car Your Way - POC chat</strong>
+       <!-- Mise en place du style pour les messages  -->
+
+       <div class="chat self" *ngFor="let msg of messages">
+        <div>
+          <div class="userphoto">
+          </div>
+          <strong class="chatname"> {{ msg.sender }} </strong>
+        </div>
+        <p class="chatmessage">{{ msg.content }}</p>
+        </div>
+<!--      <div *ngFor="let msg of messages">-->
+<!--        <strong>{{ msg.sender }}:</strong> {{ msg.content }}-->
+<!--      </div>-->
+    </div>
+    <div class="input-area" style="margin-bottom:23px;">
+      <input [(ngModel)]="sender" placeholder="Type your pseudo" />
+    </div>
+    <div class="input-area">
+      <input [(ngModel)]="messageContent" placeholder="Type your message" />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+  <section class="section_history">
+    <H1 class="title_h1">Chatbot History</H1>
+    <p>Cette application est un chatbot interactif développé en utilisant Angular pour le frontend et Spring Boot avec Spring Data JPA pour le backend. Elle permet aux utilisateurs de communiquer en temps réel grâce à l'intégration de WebSocket.</p>
+    <strong class="title">Frontend</strong>
+    <p>
+      Le frontend de l'application est construit avec Angular. Il offre une interface utilisateur intuitive et réactive, permettant aux utilisateurs de saisir et d'envoyer des messages. Les messages sont affichés en temps réel grâce à l'utilisation de WebSocket, qui permet une communication bidirectionnelle entre le client et le serveur.</p>
+    <strong class="title">Backend</strong>
+    <p>
+      Le backend est développé en utilisant Spring Boot, un framework Java qui facilite la création d'applications robustes et évolutives. Spring Data JPA est utilisé pour la gestion des données, permettant une interaction facile avec la base de données. Les messages envoyés par les utilisateurs sont stockés dans une base de données relationnelle, assurant la persistance des données.</p>
+    <strong class="title">WebSocket</strong>
+    <p>
+      L'intégration de WebSocket permet une communication en temps réel entre le client et le serveur. Lorsqu'un utilisateur envoie un message, celui-ci est transmis au serveur via WebSocket, puis diffusé à tous les clients connectés. Cela garantit que tous les utilisateurs voient les nouveaux messages instantanément, sans avoir besoin de recharger la page.</p>  </section>
+
+</div>
+
+<Footer>
+  <div class="footer">
+    <p>© 2024 Your Car Your Way - POC chat - By Mydmoov </p>
+  </div>
+</Footer>

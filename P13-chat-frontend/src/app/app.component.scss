@@ -1,0 +1,16 @@
+.start-chat-button {
+    background: var(--red-to-pink-to-purple-horizontal-gradient);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .start-chat-button:hover {
+    transform: scale(1.1);
+    background: var(--red-to-pink-to-purple-vertical-gradient);
+  }
+  

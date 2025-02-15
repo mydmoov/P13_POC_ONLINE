@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background: linear-gradient(to right, blue, red);
+}
+
+.chat-container {
+  background-color: #0056b3;
+  width: 50%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+header {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}

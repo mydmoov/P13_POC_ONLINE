@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### JAVA ###
+.mvn
+
+.angular
+
+
+### ignore data ###
+data/

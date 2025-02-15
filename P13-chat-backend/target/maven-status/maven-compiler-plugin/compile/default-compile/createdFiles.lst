@@ -1,0 +1,17 @@
+com\yourcaryourway\P13_chat_backend\service\MessageService.class
+com\yourcaryourway\P13_chat_backend\P13ChatBackendApplication.class
+com\yourcaryourway\P13_chat_backend\repository\MessageRepository.class
+com\yourcaryourway\P13_chat_backend\model\Message.class
+com\yourcaryourway\P13_chat_backend\controller\ChatController.class
+com\yourcaryourway\P13_chat_backend\controller\MessagesController.class
+com\yourcaryourway\P13_chat_backend\configuration\SocketIOConfig.class
+com\yourcaryourway\P13_chat_backend\configuration\audit\AuditConfig.class
+com\yourcaryourway\P13_chat_backend\model\Auditable.class
+com\yourcaryourway\P13_chat_backend\controller\payload\MessageRequest.class
+com\yourcaryourway\P13_chat_backend\controller\payload\MessageResponse.class
+com\yourcaryourway\P13_chat_backend\configuration\socket\SocketIOConfig.class
+com\yourcaryourway\P13_chat_backend\configuration\socket\SocketIOServerRunner.class
+com\yourcaryourway\P13_chat_backend\mappers\MessageMapper.class
+com\yourcaryourway\P13_chat_backend\service\MessageServiceImpl.class
+com\yourcaryourway\P13_chat_backend\mappers\MessageMapperImpl.class
+com\yourcaryourway\P13_chat_backend\runner\SocketIOServerRunner.class
